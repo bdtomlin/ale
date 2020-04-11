@@ -32,7 +32,7 @@ let s:default_registry = {
 \       'suggested_filetypes': ['d'],
 \       'description': 'Fix D files with dfmt.',
 \   },
-\   'eruby': {
+\   'erb_htmlbeautifier': {
 \       'function': 'ale#fixers#erb_htmlbeautifier#Fix',
 \       'suggested_filetypes': ['eruby'],
 \       'description': 'Fix Erb files with htmlbeautifier gem.',
